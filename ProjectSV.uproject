@@ -1,0 +1,41 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{7F436638-40D3-1A79-9B4D-32818CBD9111}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "ProjectSV",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
+		},
+		{
+			"Name": "SteamSockets",
+			"Enabled": true
+		},
+		{
+			"Name": "MultiplayerSessions",
+			"Enabled": true
+		}
+	]
+}
